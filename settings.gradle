@@ -1,2 +1,2 @@
-//include ':HBuilder-HelloUniApp:app'
-include ':app'
+include ':HBuilder-HelloUniApp:app'
+//include ':app'
