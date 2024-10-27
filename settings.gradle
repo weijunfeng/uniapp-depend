@@ -1,2 +1,12 @@
 include ':HBuilder-HelloUniApp:app'
+
+include ':UniPlugin-Hello-AS:app'
+include ':uniplugin_module'
+project(":uniplugin_module").projectDir = file("UniPlugin-Hello-AS/uniplugin_module")
+include ':uniplugin_component'
+project(":uniplugin_component").projectDir = file("UniPlugin-Hello-AS/uniplugin_component")
+include ':uniplugin_richalert'
+project(":uniplugin_richalert").projectDir = file("UniPlugin-Hello-AS/uniplugin_richalert")
+include ':uts-toast'
+project(":uts-toast").projectDir = file("UniPlugin-Hello-AS/uts-toast")
 //include ':app'

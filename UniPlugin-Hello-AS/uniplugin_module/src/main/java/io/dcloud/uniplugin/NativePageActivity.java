@@ -1,6 +1,5 @@
 package io.dcloud.uniplugin;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,7 +8,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-public class NativePageActivity extends Activity {
+import androidx.fragment.app.FragmentActivity;
+
+public class NativePageActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
