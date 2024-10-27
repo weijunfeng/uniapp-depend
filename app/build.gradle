@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 android {
     compileSdkVersion 34
+    namespace "com.leon.uniapp_depend"
     defaultConfig {
         applicationId "com.leon.uniapp_depend"
         minSdkVersion 24

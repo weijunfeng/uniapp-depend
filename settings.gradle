@@ -10,4 +10,4 @@ include ':uniplugin_richalert'
 project(":uniplugin_richalert").projectDir = file("UniPlugin-Hello-AS/uniplugin_richalert")
 include ':uts-toast'
 project(":uts-toast").projectDir = file("UniPlugin-Hello-AS/uts-toast")
-//include ':app'
+include ':app'
