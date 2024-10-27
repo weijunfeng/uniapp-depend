@@ -41,7 +41,7 @@
         </activity>
         <meta-data
             android:name="dcloud_appkey"
-            android:value="开发者需登录https://dev.dcloud.net.cn/申请签名" />
+            android:value="f7e2d7721355996a3b81a83c3c00c6de" />
     </application>
 
 </manifest>
